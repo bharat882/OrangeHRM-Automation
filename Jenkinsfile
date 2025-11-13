@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'master',
-                    credentialsId: '<YOUR_CREDENTIAL_ID>',
+                    credentialsId: 'github-pat',
                     url: 'https://github.com/bharat882/OrangeHRM-Automation'
             }
         }
