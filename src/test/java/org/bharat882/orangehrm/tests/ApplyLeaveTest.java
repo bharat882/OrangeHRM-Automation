@@ -35,7 +35,7 @@ public class ApplyLeaveTest extends BaseTest {
         };
     }
 
-  //  @Test(dataProvider = "leaveTypes")
+    @Test(dataProvider = "leaveTypes", enabled = false)
     public void canApplyLeave_withSuccessToast(String leaveType, int offSet){
         LoginPage login = new LoginPage(driver, wait);
         login.open();
