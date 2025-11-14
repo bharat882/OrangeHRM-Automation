@@ -68,12 +68,6 @@ You can view the latest run in Jenkins → Allure Report tab.
 
 🌴 Apply Leave Test (data-driven, dynamic date handling)
 
-📸 Screenshots
-
-Include sample Allure or Jenkins screenshots here to make your repo visually strong:
-
-/docs/allure_dashboard.png
-/docs/jenkins_pipeline.png
 
 👨‍💻 Author
 
