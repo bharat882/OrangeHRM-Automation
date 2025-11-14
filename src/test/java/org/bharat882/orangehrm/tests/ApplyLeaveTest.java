@@ -29,9 +29,9 @@ public class ApplyLeaveTest extends BaseTest {
     @DataProvider(name = "leaveTypes")
     public Object[][] leaveTypes(){
         return new Object[][]{
-                {"CAN - Bereavement", 6},
-                {"CAN - Personal",7},
-                {"CAN - Vacation",5}
+                {"CAN - Bereavement", 11},
+                {"CAN - Personal",12},
+                {"CAN - Vacation",13}
         };
     }
 
